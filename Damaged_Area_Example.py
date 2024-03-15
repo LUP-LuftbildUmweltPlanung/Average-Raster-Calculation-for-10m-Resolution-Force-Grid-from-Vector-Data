@@ -10,7 +10,7 @@ from Utilitis import polygons_to_raster,open_veg_damaged_raster, export_raster, 
 import os
 
 
-# Please Define the variables to convert the vector to raster
+# Please Define the variables to convert the vector to raster 
 
 # insert the path for the vector file
 shapefile_path = "Data/combined_shapefile_2018.shp"
@@ -18,6 +18,7 @@ shapefile_path = "Data/combined_shapefile_2018.shp"
 # define the place to save the output raster
 raster_out_path = "combined_shapefile_2018.tif"
 
+# Define the resolution of the raster file, maybe need to be increased for large images to avoid Error
 raster_resolution = 1.0  # Resolution of the raster
 
 ################## Rasterize the Vector
