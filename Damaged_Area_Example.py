@@ -13,7 +13,7 @@ import os
 # Please Define the variables to convert the vector to raster
 
 # insert the path for the vector file
-shapefile_path = "combined_shapefile_2018.shp"
+shapefile_path = "Data/combined_shapefile_2018.shp"
 
 # define the place to save the output raster
 raster_out_path = "combined_shapefile_2018.tif"
