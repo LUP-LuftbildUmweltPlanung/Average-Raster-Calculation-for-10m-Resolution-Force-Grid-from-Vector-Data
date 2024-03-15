@@ -39,6 +39,7 @@ conda create --name gwenv python=3.8 cython numpy
 conda activate gwenv
 conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
+cd ../environment
 pip install -r requirements.txt
 ```
 * installing Python GDAL Package:
