@@ -12,7 +12,7 @@
 ### Dependencies
 
 * GDAL, Geopandas, Geowombat, xarray
-* Anaconda [doc:https://www.anaconda.com/download](download)
+* Anaconda (download)[doc:https://www.anaconda.com/download]
 * developed on Windows 11
 
 ### Installation
