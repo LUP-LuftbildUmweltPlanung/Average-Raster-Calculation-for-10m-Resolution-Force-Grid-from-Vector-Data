@@ -55,8 +55,8 @@ Install Geowombat from GitHub and update it:
 ```
 * To activate your library in Jupyter Notebook or spyder, follow these steps:
 ```python I'm A tab
-python3 -m pip install ipykernel
-python3 -m ipykernel gwenv --user
+pip install ipykernel
+python -m ipykernel install --user --name gwenv --display-name "Python (gwenv)"
 ```
 
 
