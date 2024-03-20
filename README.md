@@ -1,19 +1,22 @@
 
-# Average-Raster-Calculation-for-10m-Resolution-Force-Grid-from-Vector-Data
-
+# FORCE_GRID_SPATIAL_DATA_AGGREGATION
 
 
 
 ## Description
 
-"This repository contains code to rasterize vector shapefiles into raster TIFF files with a 10-meter resolution, aligning them with a Force grid map."
+"The FORCE_GRID_SPATIAL_DATA_AGGREGATION contains functions to aggregate geospatial data to a lower resolution Grid. We use the functionalities to aggregate raster or vector data of different environmental indicators to the FORCE Grid (https://force-eo.readthedocs.io/en/latest/howto/datacube.html) at 10m resolution to facilitate usage in Sentinel-2 based machine learning models. Aggregation functions include e.g. Mean, Standard Deviation and Sum. 
+
+Additionally, some functionality for high resolution raster transformation is included. For our projects, we for example transform high resolution canopy height rasters to green volume (applying some rules based transformations) and into binary canopy rasters (using a specified threshold value). These are then upscaled to the FORCE Grid." 
+
+
 ## Getting Started
 
 ### Dependencies
 
 * GDAL, Geopandas, Geowombat, xarray
 * Anaconda [download](https://www.anaconda.com/download) 
-* developed on Windows 11
+* developed on Windows
 
 ### Installation
 
@@ -71,6 +74,7 @@ python -m ipykernel install --user --name gwenv --display-name "Python (gwenv)"
 ## Reference
 
 * [GeoWombat documentation](https://geowombat.readthedocs.io/en/latest/).
+* [FORCE Framework] (https://force-eo.readthedocs.io/en/latest/index.html)
 * [Geopandas](https://geopandas.org/en/stable/)
 
 
