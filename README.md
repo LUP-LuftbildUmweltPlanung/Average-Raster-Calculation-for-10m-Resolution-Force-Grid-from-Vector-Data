@@ -26,7 +26,7 @@ conda install -c conda-forge gdal==3.4.3
 ```
 * Create Conda Environment:
   
-** Create a virtual Conda environment with the required Python version and requirements file:
+   Create a virtual Conda environment with the required Python version and requirements file:
 ```python I'm A tab
 conda create --name gwenv python=3.8
 conda activate gwenv
