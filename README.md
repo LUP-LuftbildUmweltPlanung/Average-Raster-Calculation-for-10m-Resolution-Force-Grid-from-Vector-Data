@@ -20,9 +20,7 @@ Additionally, some functionality for high resolution raster transformation is in
 
 ### Installation
 
-* Create Conda Environment:
-  
-   Create a virtual Conda environment with the required Python version and requirements file:
+* Create a virtual Conda environment with the required Python version and requirements file:
 ```python I'm A tab
 conda create --name gwenv python=3.8
 conda activate gwenv
