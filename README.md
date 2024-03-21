@@ -20,10 +20,6 @@ Additionally, some functionality for high resolution raster transformation is in
 
 ### Installation
 
-* Using conda, install GDAL in "base" environment by:
-```python I'm A tab
-
-```
 * Create Conda Environment:
   
    Create a virtual Conda environment with the required Python version and requirements file:
