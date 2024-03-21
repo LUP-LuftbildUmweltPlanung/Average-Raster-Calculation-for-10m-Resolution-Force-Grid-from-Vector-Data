@@ -22,33 +22,17 @@ Additionally, some functionality for high resolution raster transformation is in
 
 * Install GDAL Binaries:
 ```python I'm A tab
-conda install -c conda-forge gdal
-```
-**Hint**: If you encounter issues while installing GDAL, we recommend creating a separate environment specifically for installing GDAL to avoid conflicts. This can help streamline the installation process and resolve any compatibility issues that may arise.
-
-* Verify GDAL Version:
-After installing GDAL, verify the version to ensure compatibility
-```python I'm A tab
-gdalinfo --version
-```
-For Example the output is:
-```python I'm A tab
-GDAL_3.8.4
+conda install -c conda-forge gdal==3.4.3
 ```
 * Create Conda Environment:
 Create a virtual Conda environment with the required Python version and requirements file:
 ```python I'm A tab
-conda create --name gwenv python=3.8 cython numpy
+conda create --name gwenv python=3.8
 conda activate gwenv
 conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
 cd ../environment
 pip install -r requirements.txt
-```
-* installing Python GDAL Package:
-Ensure that the Python GDAL package version matches the installed GDAL binaries version:
-```python I'm A tab
-(gwenv) pip install GDAL==3.8.4
 ```
 * Install Geowombat Library:
 Install Geowombat from GitHub and update it:
