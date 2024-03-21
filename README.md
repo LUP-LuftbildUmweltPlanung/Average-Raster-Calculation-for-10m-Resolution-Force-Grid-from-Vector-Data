@@ -42,8 +42,9 @@ pip install -r requirements.txt
 ## Reference
 
 * [GeoWombat documentation](https://geowombat.readthedocs.io/en/latest/).
-* [FORCE Framework] (https://force-eo.readthedocs.io/en/latest/index.html)
+* [FORCE Framework](https://force-eo.readthedocs.io/en/latest/index.html)
 * [Geopandas](https://geopandas.org/en/stable/)
+* [GDAL](https://gdal.org/index.html)
 
 
 
