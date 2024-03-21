@@ -26,9 +26,9 @@ Additionally, some functionality for high resolution raster transformation is in
 ```python I'm A tab
 conda create --name gwenv python=3.8
 conda activate gwenv
+conda install -c conda-forge gdal==3.4.3
 conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
-conda install -c conda-forge gdal==3.4.3
 cd ../environment
 pip install -r requirements.txt
 ```
