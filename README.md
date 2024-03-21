@@ -20,7 +20,7 @@ Additionally, some functionality for high resolution raster transformation is in
 
 ### Installation
 
-* Install GDAL Binaries:
+* Using conda, install GDAL in "base" environment by:
 ```python I'm A tab
 conda install -c conda-forge gdal==3.4.3
 ```
