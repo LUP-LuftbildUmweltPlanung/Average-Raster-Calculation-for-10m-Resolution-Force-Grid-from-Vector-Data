@@ -22,7 +22,7 @@ Additionally, some functionality for high resolution raster transformation is in
 
 * Using conda, install GDAL in "base" environment by:
 ```python I'm A tab
-conda install -c conda-forge gdal==3.4.3
+
 ```
 * Create Conda Environment:
   
@@ -32,23 +32,10 @@ conda create --name gwenv python=3.8
 conda activate gwenv
 conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
+conda install -c conda-forge gdal==3.4.3
 cd ../environment
 pip install -r requirements.txt
 ```
-* Install Geowombat Library:
-Install Geowombat from GitHub and update it:
-```python I'm A tab
-(gwenv) pip install git+https://github.com/jgrss/geowombat
-(gwenv) pip install --upgrade git+https://github.com/jgrss/geowombat
-```
-* To activate your library in Jupyter Notebook or spyder, follow these steps:
-```python I'm A tab
-pip install ipykernel
-python -m ipykernel install --user --name gwenv --display-name "Python (gwenv)"
-```
-
-
-
 ## Authors
 
  
